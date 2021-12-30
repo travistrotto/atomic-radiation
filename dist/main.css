@@ -84,7 +84,7 @@ a:hover{
         color: transparent;
     }
     50% {
-        color: white;
+        color: black;
     }
 }
 
@@ -117,7 +117,7 @@ a:hover{
         color: transparent;
     }
     50% {
-        color: white;
+        color: black;
     }
 }
 
@@ -138,3 +138,6 @@ a:hover{
     left: 0;
     outline: none;
 }
+
+
+/*# sourceMappingURL=main.css.map*/
