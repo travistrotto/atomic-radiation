@@ -8,13 +8,20 @@ html,
 body
 {
     overflow: hidden;
-    background-color: #868383;
+    background-color: #959696;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
 a {
     text-decoration: none;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color:yellow;
+}
+section {
+    height: .5rem;
 }
 
 .mu {
@@ -22,6 +29,19 @@ a {
     text-align: center;
     position:fixed;
     color: white;
+
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1rem;
+    /* margin-left: 44%; */
+
 }
 
 .webgl
