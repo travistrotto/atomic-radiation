@@ -13,6 +13,17 @@ html, body{
     background-position: 0 0,10px 10px;
 }
 
+.markup{
+    padding: 2rem;
+    text-align: center;
+    position:fixed;
+    color: white;
+
+}
+section{
+    height: .5rem;
+}
+
 .neon{
     color:#cbfd03;
 }
@@ -27,6 +38,8 @@ a{
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     color:yellow;
+    cursor: not-allowed;
+    
 }
 
 a:hover{
@@ -35,36 +48,25 @@ a:hover{
     color: #cbfd03;
 }
 
-section{
-    height: .5rem;
+.tooltip{
+    position: relative;
+    display: inline-block;
 }
-
-.markup{
-    padding: 2rem;
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: tomato;
     text-align: center;
-    position:fixed;
-    color: white;
-
+    font-style: italic;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: -2;
 }
-
-.footer{
-    color: white;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    padding: 1rem;
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
-
-.webgl{
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
-}
-
 
 .blinking-cursor {
     font-weight: 100;
@@ -117,4 +119,22 @@ section{
     50% {
         color: black;
     }
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1rem;
+}
+
+.webgl{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
 }
