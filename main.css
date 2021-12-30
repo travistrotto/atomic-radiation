@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    overflow: hidden;
+    background-color: #959696;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-image:  radial-gradient(#ffffff 0.5px, transparent 0.5px), radial-gradient(#ffffff 0.5px, #959696 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+.markup{
+    padding: 2rem;
+    text-align: center;
+    position:fixed;
+    color: white;
+
+}
+section{
+    height: .5rem;
+}
+
+.neon{
+    color:#cbfd03;
+}
+
+.gray{
+    color: #d0d0c5;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color:yellow;
+    cursor: not-allowed;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #cbfd03;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: tomato;
+    text-align: center;
+    font-style: italic;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: -2;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 30px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+
+@-webkit-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+  
+@-ms-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+}
+  
+@-o-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: black;
+    }
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1rem;
+}
+
+.webgl{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
