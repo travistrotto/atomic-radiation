@@ -20,6 +20,11 @@ a {
     font-style: italic;
     color:yellow;
 }
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #cbfd03;
+}
 section {
     height: .5rem;
 }

@@ -1,11 +1,7 @@
 import './style.css'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import * as dat from 'dat.gui'
 import typefaceFont from 'three/examples/fonts/helvetiker_regular.typeface.json'
-
-// Debug
-const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
@@ -105,11 +101,6 @@ camera.position.x = -1
 camera.position.y = -6
 camera.position.z = 2
 scene.add(camera)
-
-// Gui 
-gui.add(camera.position, 'y').min(-10).max(10).step(0.01)
-gui.add(camera.position, 'x').min(-10).max(10).step(0.01)
-gui.add(camera.position, 'z').min(-10).max(10).step(0.01)
 
 // Orbit controls
 const controls = new OrbitControls(camera, canvas)
