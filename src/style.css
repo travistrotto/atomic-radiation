@@ -1,43 +1,45 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
 }
 
-html,
-body
-{
+html, body{
     overflow: hidden;
     background-color: #959696;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* opacity: 0.8; */
+
     background-image:  radial-gradient(#ffffff 0.5px, transparent 0.5px), radial-gradient(#ffffff 0.5px, #959696 0.5px);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
 }
-.neon {
+
+.neon{
     color:#cbfd03;
 }
+
 .gray{
     color: #d0d0c5;
 }
-a {
+
+a{
     text-decoration: none;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     color:yellow;
 }
+
 a:hover{
     text-decoration: underline;
     font-weight: bold;
     color: #cbfd03;
 }
-section {
+
+section{
     height: .5rem;
 }
 
-.markup {
+.markup{
     padding: 2rem;
     text-align: center;
     position:fixed;
@@ -45,7 +47,7 @@ section {
 
 }
 
-.footer {
+.footer{
     color: white;
     text-align: center;
     position: fixed;
@@ -53,12 +55,9 @@ section {
     left: 50%;
     transform: translate(-50%, 0);
     padding: 1rem;
-    /* margin-left: 44%; */
-
 }
 
-.webgl
-{
+.webgl{
     z-index: -1;
     position: fixed;
     top: 0;
@@ -66,10 +65,6 @@ section {
     outline: none;
 }
 
-/**
- *  Blinking Cursor
- */
-/*  
 
 .blinking-cursor {
     font-weight: 100;
@@ -122,4 +117,4 @@ section {
     50% {
         color: black;
     }
-} */
+}
